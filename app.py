@@ -12,6 +12,6 @@ app.layout = html.Div([
 if __name__ == "__main__":
     # Get port and debug mode from environment variables    
 #     port = os.environ.get('dash_port')
-    port = "8000"
+    port = "80"
     debug = os.environ.get('dash_debug')=="True"
     app.run_server(debug=debug, host="0.0.0.0", port=port)
